@@ -239,6 +239,11 @@
         display: none;
     }
 
+    #nav-items-header {
+        float: right;
+        padding-right: 1.2rem !important;
+    }
+
     #nav-beauftragen {
         display: block;
     }

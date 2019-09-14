@@ -237,4 +237,9 @@
     .qual-btn {
         width: auto !important;
     }
+
+    .img-dotted-bg:after {
+
+        right: -10px;
+    }
 } 

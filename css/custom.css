@@ -1,4 +1,8 @@
 /* ===== Rechtstexte ===== */
+#recht-body p{
+    user-select: none;
+}
+
 .rechtliches header {
     background: #333333 !important;
 }
@@ -234,12 +238,91 @@
         margin-left: 0;
     }
 
-    .qual-btn {
-        width: auto !important;
-    }
-
     .img-dotted-bg:after {
 
         right: -10px;
     }
+
+
+
+
+    /* #### Qual #### */
+
+    .qual-btn {
+        width: auto !important;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qual-headings {
+        font-size: 0.9rem;
+    }
+
+    .qual-text {
+        font-size: 0.7rem;
+    }
+
+    #qual-0 .qual__showcase {
+        height: 7rem;
+    }
+
+    #qual-1 .qual__showcase {
+        height: 7rem;
+        background-position: left; 
+    }
+
+    #qual-2 .qual__showcase {
+        height: 9rem;
+        background-position-x: -8rem;
+        background-position-y: -10rem;
+    }
+
+    #qual-3 .qual__showcase {
+        height: 9rem;
+        background-position-x: -4rem;
+    }
+
+
+
+
+
+
+
+
+
+    /* #### Kontakt #### */
+    #kontakt {
+        padding: 0 1rem;
+    }
+
+    #tel-padding {
+        margin-bottom: 1rem;
+    }
+
+    #contact-info {
+        border-top: 3px solid #fff;
+        border-left: 0;
+    }
+
+    #tel {
+        padding-right: 0;
+    }
+
+    .contact-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-text {
+        padding-left: 0;
+    }
+
+    .contact-text a {
+        padding-left: 0;
+    }
+
+    
+
 } 

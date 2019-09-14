@@ -1,6 +1,15 @@
 /* ======================= Header ==================== */
 
 /* Header */
+.navbar-brand {
+    width: 50px;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 10px;
+}
+
 .slider-item {
     margin: 0;
 }
@@ -213,6 +222,15 @@
 
 
 @media (max-width: 478px) {
+    .logo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
     .slider-item .slider-text h1 {
         font-size: 2.2rem !important;
         margin-bottom: 3.5rem;

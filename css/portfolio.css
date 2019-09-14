@@ -205,3 +205,64 @@
 .site-footer .footer-link li {
     margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+@media (max-width: 478px) {
+    .slider-item .slider-text h1 {
+        font-size: 2.2rem !important;
+        margin-bottom: 3.5rem;
+        margin-left: 0;
+    }
+
+    .website-screenshot {
+        margin-bottom: 3rem;
+    }
+
+    .webseite-anschauen {
+        display: grid;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+
+
+
+    /* #### Kontakt #### */
+    #kontakt {
+        padding: 0 1rem;
+    }
+
+    #tel-padding {
+        margin-bottom: 1rem;
+    }
+
+    #contact-info {
+        border-top: 3px solid #fff;
+        border-left: 0;
+    }
+
+    #tel {
+        padding-right: 0;
+    }
+
+    .contact-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-text {
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+    .contact-text a {
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+}

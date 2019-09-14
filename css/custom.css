@@ -21,6 +21,15 @@
 /* ======================= Header ==================== */
 
 /* Header */
+.navbar-brand {
+    width: 50px;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 10px;
+}
+
 .slider-item {
     margin: 20px 20px 0;
 }
@@ -232,6 +241,33 @@
 
 
 @media (max-width: 478px) {
+    .logo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse:not(.show) {
+        display: block;
+    }
+
+    #nav-items {
+        display: none;
+    }
+
+    #nav-beauftragen {
+        display: block;
+    }
+
+    #nav-beauftragen #btn-beauftragen {
+        border: 1px solid #fff;
+        right: 2rem;
+        top: 25px;
+    }
+
     .slider-item {
         min-height: 650px;
     }
@@ -281,7 +317,7 @@
     }
 
     .qual-text {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     #qual-0 .qual__showcase {

@@ -232,10 +232,18 @@
 
 
 @media (max-width: 478px) {
+    .slider-item {
+        min-height: 650px;
+    }
+
     .slider-item .slider-text h1 {
         font-size: 2.2rem;
         margin-bottom: 3.5rem;
         margin-left: 0;
+    }
+
+    .header-text {
+        font-size: 0.9rem;
     }
 
     #über-mich-title{
@@ -261,6 +269,11 @@
         padding: 0;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .qual-icons{
+        width: 2.2rem;
+        margin-bottom: 15px;
     }
 
     .qual-headings {
@@ -325,10 +338,17 @@
 
     .contact-text {
         padding-left: 0;
+        font-size: 1.2rem;
     }
 
     .contact-text a {
         padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+
+    .meta {
+        font-size: 0.8rem;
     }
 
     

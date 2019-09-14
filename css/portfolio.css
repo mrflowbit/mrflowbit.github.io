@@ -231,6 +231,26 @@
         display: none;
     }
 
+    .collapse:not(.show) {
+        display: block;
+    }
+
+    #nav-items {
+        display: none;
+    }
+
+    #nav-beauftragen {
+        display: block;
+    }
+
+    #nav-beauftragen #btn-beauftragen {
+        border: 1px solid #fff;
+        right: 2rem;
+        top: 25px;
+        position: absolute;
+        animation: none;
+    }
+
     .slider-item .slider-text h1 {
         font-size: 2.2rem !important;
         margin-bottom: 3.5rem;

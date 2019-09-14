@@ -266,6 +266,8 @@
         border: 1px solid #fff;
         right: 2rem;
         top: 25px;
+        position: absolute;
+        animation: none;
     }
 
     .slider-item {

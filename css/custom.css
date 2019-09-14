@@ -238,9 +238,17 @@
         margin-left: 0;
     }
 
+    #über-mich-title{
+        font-size: 1.8rem;
+    }
+
     .img-dotted-bg:after {
 
         right: -10px;
+    }
+
+    #kontakt-btn {
+        text-align: center;
     }
 
 

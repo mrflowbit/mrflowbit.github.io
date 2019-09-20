@@ -1,0 +1,423 @@
+/* ===== Rechtstexte ===== */
+#recht-body p{
+    user-select: none;
+}
+
+.rechtliches header {
+    background: #333333 !important;
+}
+
+
+#recht-body {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+
+
+
+
+
+/* ======================= Header ==================== */
+
+/* Header */
+.navbar-brand {
+    width: 50px;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.slider-item {
+    margin: 20px 20px 0;
+}
+
+#btn-beauftragen {
+    padding: 0 10px !important;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 30px;
+    right: 60px;
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse
+{
+    0%
+    {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(0, 0, 0, 0.4);
+    }
+    40%
+    {
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0.4);
+    }
+    80%
+    {
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0), 0 0 0 8px rgba(0, 0, 0, 0);
+    }
+    100%
+    {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 8px rgba(0, 0, 0, 0);
+    }
+}
+
+.slider-item .slider-text h1 {
+    font-size: 3.5rem ;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-bottom: 12.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 0;
+}
+
+.star {
+    background-image: url(../images/star.png);
+}
+
+
+
+
+
+
+
+
+/* ======================= Main ==================== */
+#idee-col {
+    margin-top: 3.8rem;
+}
+
+#idee {
+    width: 650px;
+    height: 500px;
+}
+
+/* Qualifikation Section */
+#komplett-paket {
+    padding-top: 7em !important;
+    padding-bottom: 0 !important;
+}
+
+.qual-icons {
+    width: 50px;;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    margin-bottom: 20px;
+}
+
+.qual-text {
+    padding: 20px 30px;
+}
+
+.qual-headings {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.qual-spans {
+    font-size: 0.9rem;
+    display: block; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.qualifikationen {
+    border-radius: 3px;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.09);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.qual-btn {
+    cursor: pointer;
+}
+
+#qual-0 .qual__showcase {
+    border-radius: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/Qual-Webdesign.jpg);
+    background-size: 160%;
+}
+
+
+#qual-1 .qual__showcase {
+    border-radius: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/qual-ecommerce.jpg);
+    background-size: 200%;
+}
+
+#qual-2 .qual__showcase {
+    border-radius: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/qual-seo.jpg);
+    background-size: 200%;
+    background-position-x: -100px;
+}
+
+#qual-3 .qual__showcase {
+    border-radius: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/qual-markendesign.jpg);
+    background-size: 160%;
+    background-position-x: -40px;
+}
+
+
+
+
+
+
+
+
+/* ##### Kontakt Section ###### */
+
+#kontakt h3:nth-child(1) {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact-icon {
+    width: 50px;
+}
+
+.contact-text {
+    padding-left: 0.7rem;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: left;
+}
+
+.contact-text a{
+    padding-left: 0.7rem;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+
+.contact-text a:hover{
+    text-decoration: underline;
+}
+
+#tel-padding {
+    padding-top: 1.5rem;
+}
+
+#tel {
+    padding-right: 14.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact-info {
+    border-left: 3px solid #fff;
+}
+
+
+
+
+
+
+
+/* ======================= Footer ==================== */
+
+.site-footer {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-footer a:hover {
+    color: #20c997;
+}
+
+.site-footer .footer-link li {
+    margin-bottom: 5px;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .logo {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse:not(.show) {
+        display: block;
+    }
+
+    #nav-items {
+        display: none;
+    }
+
+    #nav-beauftragen {
+        display: block;
+    }
+
+    #nav-beauftragen #btn-beauftragen {
+        border: 1px solid #fff;
+        right: 2rem;
+        top: 25px;
+        position: absolute;
+        animation: none;
+    }
+
+    .slider-item {
+        min-height: 650px;
+    }
+
+    .slider-item .slider-text h1 {
+        font-size: 2.2rem;
+        margin-bottom: 3.5rem;
+        margin-left: 0;
+    }
+
+    .header-text {
+        font-size: 0.9rem;
+    }
+
+    #über-mich-title{
+        font-size: 1.8rem;
+    }
+
+    .img-dotted-bg:after {
+
+        right: -10px;
+    }
+
+    #kontakt-btn {
+        text-align: center;
+    }
+
+    #idee-col {
+        margin-top: 0;
+    }
+
+
+    /* #### Qual #### */
+
+    .qual-btn {
+        width: auto !important;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    #qual-0 .qual__showcase {
+        height: 7rem;
+    }
+
+    #qual-1 .qual__showcase {
+        height: 7rem;
+        background-position: left; 
+    }
+
+    #qual-2 .qual__showcase {
+        height: 9rem;
+        background-position-x: -8rem;
+        background-position-y: -10rem;
+    }
+
+    #qual-3 .qual__showcase {
+        height: 9rem;
+        background-position-x: -4rem;
+    }
+
+
+
+
+
+
+
+
+
+    /* #### Kontakt #### */
+    #kontakt {
+        padding: 0 1rem;
+    }
+
+    #tel-padding {
+        margin-bottom: 1rem;
+    }
+
+    #contact-info {
+        border-top: 3px solid #fff !important;
+        border-left: 0;
+    }
+
+    #tel {
+        padding-right: 0;
+    }
+
+    .contact-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-text {
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+    .contact-text a {
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+
+    .meta {
+        font-size: 0.8rem;
+    }
+
+    
+
+} 
+
+@media (max-width: 478px) {
+
+    #idee {
+        height: 300px;
+    }
+
+    .img-dotted-bg:after {
+        height: 300px;
+    }
+ 
+    
+    .qual-icons{
+        width: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    .qual-icons{
+        width: 3.2rem;
+        margin-bottom: 15px;
+    }
+
+    .qual-headings {
+        font-size: 0.9rem;
+    }
+
+    .qual-text {
+        font-size: 1rem;
+    }
+}
